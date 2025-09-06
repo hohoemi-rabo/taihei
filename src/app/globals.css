@@ -5,6 +5,48 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* Primary - 明るいブルー系（空・爽やかさ） */
+  --primary-50: #eff9ff;
+  --primary-100: #def2ff;
+  --primary-200: #b6e8ff;
+  --primary-300: #75d8ff;
+  --primary-400: #2cc5ff;
+  --primary-500: #00aef0;
+  --primary-600: #008dce;
+  --primary-700: #0070a6;
+  --primary-800: #005f8a;
+  --primary-900: #064e72;
+  
+  /* Secondary - ビビッドなオレンジ系（元気・活力） */
+  --secondary-50: #fff7ed;
+  --secondary-100: #ffedd5;
+  --secondary-200: #fed7aa;
+  --secondary-300: #fdba74;
+  --secondary-400: #fb923c;
+  --secondary-500: #f97316;
+  --secondary-600: #ea580c;
+  --secondary-700: #c2410c;
+  --secondary-800: #9a3412;
+  --secondary-900: #7c2d12;
+  
+  /* Accent Colors - ポップな補助色 */
+  --accent-pink: #ec4899;
+  --accent-green: #10b981;
+  --accent-purple: #8b5cf6;
+  --accent-yellow: #fbbf24;
+  
+  /* Neutral - ライトグレー系 */
+  --neutral-50: #fafafa;
+  --neutral-100: #f5f5f5;
+  --neutral-200: #e5e5e5;
+  --neutral-300: #d4d4d4;
+  --neutral-400: #a3a3a3;
+  --neutral-500: #737373;
+  --neutral-600: #525252;
+  --neutral-700: #404040;
+  --neutral-800: #262626;
+  --neutral-900: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,8 +56,55 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  h5 {
+    @apply text-lg md:text-xl;
+  }
+  
+  h6 {
+    @apply text-base md:text-lg;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--primary-400) 0%, var(--primary-600) 100%);
+  }
+  
+  .gradient-secondary {
+    background: linear-gradient(135deg, var(--secondary-400) 0%, var(--secondary-600) 100%);
+  }
+  
+  .gradient-accent {
+    background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-purple) 50%, var(--accent-green) 100%);
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background: linear-gradient(135deg, var(--primary-500) 0%, var(--secondary-500) 100%);
+  }
 }

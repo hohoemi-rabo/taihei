@@ -6,21 +6,21 @@
 ## 作業内容
 
 ### Todo
-- [ ] 必要なパッケージのインストール
-  - [ ] Framer Motion
-  - [ ] Lucide React or Heroicons
-  - [ ] Zustand
-- [ ] Tailwind CSS のカスタムカラー設定
-  - [ ] primary (明るいブルー系)
-  - [ ] secondary (ビビッドなオレンジ/イエロー)
-  - [ ] accent (ポップな補助色)
-  - [ ] neutral (ライトグレー)
-- [ ] グローバルCSS変数の定義
-- [ ] 日本語フォント設定 (Noto Sans JP)
-- [ ] プロジェクト構造の整理
-  - [ ] src/components ディレクトリ作成
-  - [ ] src/lib ディレクトリ作成
-  - [ ] src/types ディレクトリ作成
+- [×] 必要なパッケージのインストール
+  - [×] Framer Motion
+  - [×] Lucide React or Heroicons
+  - [×] Zustand
+- [×] Tailwind CSS のカスタムカラー設定
+  - [×] primary (明るいブルー系)
+  - [×] secondary (ビビッドなオレンジ/イエロー)
+  - [×] accent (ポップな補助色)
+  - [×] neutral (ライトグレー)
+- [×] グローバルCSS変数の定義
+- [×] 日本語フォント設定 (Noto Sans JP)
+- [×] プロジェクト構造の整理
+  - [×] src/components ディレクトリ作成
+  - [×] src/lib ディレクトリ作成
+  - [×] src/types ディレクトリ作成
 
 ## 技術要件
 - Tailwind CSS v3.4.17のextend機能を使用
@@ -28,7 +28,7 @@
 - Next.js 15のfont最適化機能を使用
 
 ## 完了条件
-- [ ] パッケージがすべてインストールされている
-- [ ] カラーパレットが定義されている
-- [ ] フォントが適用されている
-- [ ] プロジェクト構造が整理されている
+- [×] パッケージがすべてインストールされている
+- [×] カラーパレットが定義されている
+- [×] フォントが適用されている
+- [×] プロジェクト構造が整理されている
