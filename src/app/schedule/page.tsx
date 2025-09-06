@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 import { scheduleData, classInfoData } from '@/lib/scheduleData'
 import { Clock, Users, Calendar, ChevronRight, CheckCircle } from 'lucide-react'
 
@@ -258,13 +259,13 @@ export default function SchedulePage() {
                 お気軽にお問い合わせください。
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
+                <Link
                   href="/#contact"
                   className="inline-flex items-center justify-center rounded-full bg-white text-primary-600 px-8 py-3 text-base font-semibold hover:bg-gray-100 transition-colors"
                 >
                   体験申込みフォームへ
                   <ChevronRight className="ml-2 h-5 w-5" />
-                </a>
+                </Link>
                 <a
                   href="tel:0265-XX-XXXX"
                   className="inline-flex items-center justify-center rounded-full border-2 border-white text-white px-8 py-3 text-base font-semibold hover:bg-white/10 transition-colors"

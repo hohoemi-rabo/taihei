@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 import { instructorProfile } from '@/lib/instructorData'
 import { 
   Award,
@@ -55,7 +56,7 @@ export default function InstructorPage() {
                     <div className="bg-gradient-to-r from-primary-100 to-secondary-100 rounded-2xl p-4">
                       <p className="text-sm font-medium text-gray-700 mb-2">モットー</p>
                       <p className="text-sm text-gray-600 italic">
-                        "{instructorProfile.motto}"
+                        &ldquo;{instructorProfile.motto}&rdquo;
                       </p>
                     </div>
                   </div>
@@ -284,18 +285,18 @@ export default function InstructorPage() {
                 まずはお気軽に体験レッスンにお越しください。
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
+                <Link
                   href="/#contact"
                   className="inline-flex items-center justify-center rounded-full bg-primary-600 px-8 py-3 text-base font-semibold text-white hover:bg-primary-500 transition-colors"
                 >
                   体験申込み・お問い合わせ
-                </a>
-                <a
+                </Link>
+                <Link
                   href="/schedule"
                   className="inline-flex items-center justify-center rounded-full border-2 border-primary-600 text-primary-600 px-8 py-3 text-base font-semibold hover:bg-primary-50 transition-colors"
                 >
                   スケジュールを見る
-                </a>
+                </Link>
               </div>
             </div>
           </div>
