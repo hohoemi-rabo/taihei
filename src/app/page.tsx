@@ -24,7 +24,7 @@ export default function Home() {
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block">楽しく体を動かそう！</span>
-                <span className="block text-primary-600 mt-2">泰平スタジオ</span>
+                <span className="block text-primary-600 mt-2">多目的スタジオ泰平</span>
               </h1>
               <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
                 飯田市の体操教室。低学年の小学生からシニアまで、
@@ -47,8 +47,11 @@ export default function Home() {
             </div>
             {/* Placeholder for main visual */}
             <div className="mt-16 mx-auto max-w-4xl">
-              <div className="aspect-video bg-gray-200 rounded-2xl flex items-center justify-center">
-                <span className="text-gray-500">メインビジュアル（写真/イラスト）</span>
+              <div className="aspect-video bg-gradient-to-br from-primary-100 to-secondary-100 rounded-2xl flex items-center justify-center border-2 border-dashed border-primary-300">
+                <div className="text-center">
+                  <span className="text-primary-700 text-lg font-medium block">メインビジュアル挿入予定</span>
+                  <span className="text-primary-600 text-sm">※教室風景や施設写真などを配置</span>
+                </div>
               </div>
             </div>
           </div>
@@ -58,7 +61,7 @@ export default function Home() {
         <section id="overview" className="py-20 bg-white">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">泰平スタジオとは</h2>
+              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">多目的スタジオ泰平とは</h2>
               <p className="mt-4 text-lg text-gray-600">
                 地域の皆様の健康と笑顔を支える体操教室
               </p>
@@ -257,17 +260,17 @@ export default function Home() {
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">写真ギャラリー</h3>
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">施設写真1</span>
+                  <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center border border-gray-300">
+                    <span className="text-gray-600 text-sm font-medium">教室内観</span>
                   </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">施設写真2</span>
+                  <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center border border-gray-300">
+                    <span className="text-gray-600 text-sm font-medium">レッスン風景</span>
                   </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">施設写真3</span>
+                  <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center border border-gray-300">
+                    <span className="text-gray-600 text-sm font-medium">設備・器具</span>
                   </div>
-                  <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">施設写真4</span>
+                  <div className="aspect-square bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center border border-gray-300">
+                    <span className="text-gray-600 text-sm font-medium">外観・駐車場</span>
                   </div>
                 </div>
               </div>
@@ -328,21 +331,22 @@ export default function Home() {
                     <MapPin className="h-5 w-5 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-900">住所</p>
-                      <p className="text-gray-600">〒395-0000 長野県飯田市○○町1-2-3</p>
+                      <p className="text-gray-600">〒395-0003 長野県飯田市上郷別府3313-3</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Phone className="h-5 w-5 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
                     <div>
-                      <p className="font-semibold text-gray-900">電話番号</p>
-                      <p className="text-gray-600">0265-XX-XXXX</p>
+                      <p className="font-semibold text-gray-900">お問い合わせ</p>
+                      <p className="text-gray-600">電話番号: 0265-52-5320</p>
+                      <p className="text-gray-600">携帯番号: 090-3143-4331</p>
                     </div>
                   </div>
                   <div className="flex items-start">
                     <Mail className="h-5 w-5 text-primary-600 mt-0.5 mr-3 flex-shrink-0" />
                     <div>
                       <p className="font-semibold text-gray-900">メール</p>
-                      <p className="text-gray-600">info@taihei-studio.jp</p>
+                      <p className="text-gray-600">Taihei.studio@icloud.com</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -357,8 +361,11 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-4">地図</h3>
-                <div className="aspect-video bg-gray-200 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Google Maps埋め込みエリア</span>
+                <div className="aspect-video bg-gradient-to-br from-green-100 to-blue-100 rounded-lg flex items-center justify-center border-2 border-dashed border-green-300">
+                  <div className="text-center">
+                    <span className="text-green-700 text-lg font-medium block">Google Maps</span>
+                    <span className="text-green-600 text-sm">※地図埋め込み予定</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -368,13 +375,35 @@ export default function Home() {
         {/* Contact Section */}
         <section id="contact" className="py-20 bg-gray-50">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
+            <div className="text-center mb-12">
               <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">お問い合わせ</h2>
               <p className="mt-4 text-lg text-gray-600">
                 体験申込みやご質問はお気軽にお問い合わせください
               </p>
             </div>
-            <div className="mt-12 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Phone Contact */}
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <div className="text-center">
+                  <div className="flex items-center justify-center mb-4">
+                    <Phone className="h-6 w-6 mr-2 text-primary-600" />
+                    <span className="text-lg font-medium text-gray-700">お電話でのお問い合わせ</span>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="text-center">
+                      <p className="text-sm text-gray-500 mb-1">固定電話</p>
+                      <p className="text-2xl font-bold text-primary-600">0265-52-5320</p>
+                    </div>
+                    <div className="text-center">
+                      <p className="text-sm text-gray-500 mb-1">携帯電話</p>
+                      <p className="text-2xl font-bold text-primary-600">090-3143-4331</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Contact Form */}
+              <div className="bg-white rounded-xl p-6 shadow-md">
+                <h3 className="text-lg font-medium text-gray-700 mb-4 text-center">メールでのお問い合わせ</h3>
               <form className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -436,6 +465,7 @@ export default function Home() {
                   </button>
                 </div>
               </form>
+              </div>
             </div>
           </div>
         </section>

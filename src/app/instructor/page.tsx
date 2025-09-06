@@ -39,8 +39,11 @@ export default function InstructorPage() {
               {/* Profile Photo */}
               <div className="lg:col-span-1">
                 <div className="sticky top-24">
-                  <div className="aspect-square bg-gray-200 rounded-3xl flex items-center justify-center mb-6 shadow-lg">
-                    <span className="text-gray-500 text-lg">講師写真</span>
+                  <div className="aspect-square bg-gradient-to-br from-primary-100 to-secondary-100 rounded-3xl flex items-center justify-center mb-6 shadow-lg border-2 border-dashed border-primary-300">
+                    <div className="text-center">
+                      <span className="text-primary-700 text-lg font-medium block">講師写真</span>
+                      <span className="text-primary-600 text-sm">※プロフィール写真挿入予定</span>
+                    </div>
                   </div>
                   <div className="text-center">
                     <h2 className="text-2xl font-bold text-gray-900 mb-2">
@@ -216,8 +219,8 @@ export default function InstructorPage() {
                   key={achievement.id}
                   className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
                 >
-                  <div className="aspect-video bg-gray-200 flex items-center justify-center">
-                    <span className="text-gray-500">活動写真プレースホルダー</span>
+                  <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center border border-gray-300">
+                    <span className="text-gray-600 font-medium">活動写真挿入予定</span>
                   </div>
                   <div className="p-6">
                     <div className="flex items-center justify-between mb-3">

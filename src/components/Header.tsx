@@ -24,7 +24,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="text-2xl font-bold text-primary-600">
-              泰平スタジオ
+              多目的スタジオ泰平
             </Link>
           </div>
 

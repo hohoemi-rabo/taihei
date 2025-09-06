@@ -2,8 +2,8 @@ import { InstructorProfile } from '@/types/instructor'
 
 export const instructorProfile: InstructorProfile = {
   id: 'main-instructor',
-  name: '田中 太郎',
-  title: '泰平スタジオ 代表・主任講師',
+  name: '宮下 泰広',
+  title: '多目的スタジオ泰平 代表・主任講師',
   introduction: `
     体操指導歴20年以上の経験を持つベテラン講師です。
     「楽しく、安全に、一人ひとりに合わせた指導」をモットーに、

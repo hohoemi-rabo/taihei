@@ -18,8 +18,8 @@ export const newsData: NewsPost[] = [
 新年も皆様の健康づくりをサポートできるよう、スタッフ一同心よりお待ちしております。`,
     excerpt: '年末年始の営業時間についてお知らせいたします。12月29日～1月3日は休館となります。',
     category: 'important',
-    publishedAt: '2023-12-15T10:00:00Z',
-    updatedAt: '2023-12-15T10:00:00Z',
+    publishedAt: '2024-12-15T10:00:00Z',
+    updatedAt: '2024-12-15T10:00:00Z',
     isPublished: true
   },
   {
@@ -37,8 +37,8 @@ export const newsData: NewsPost[] = [
 無料体験も実施中ですので、お気軽にお申し込みください。`,
     excerpt: '3歳～6歳のお子様と保護者様を対象とした新しい教室がスタートします。',
     category: 'classroom',
-    publishedAt: '2023-12-10T14:00:00Z',
-    updatedAt: '2023-12-10T14:00:00Z',
+    publishedAt: '2024-12-10T14:00:00Z',
+    updatedAt: '2024-12-10T14:00:00Z',
     isPublished: true
   },
   {
@@ -59,8 +59,8 @@ export const newsData: NewsPost[] = [
 ご家族・ご友人をお誘いの上、ぜひお越しください！`,
     excerpt: '12月23日に年末感謝祭イベントを開催します。参加費無料でどなたでもご参加いただけます。',
     category: 'event',
-    publishedAt: '2023-12-05T09:00:00Z',
-    updatedAt: '2023-12-05T09:00:00Z',
+    publishedAt: '2024-12-05T09:00:00Z',
+    updatedAt: '2024-12-05T09:00:00Z',
     isPublished: true
   },
   {
@@ -80,8 +80,8 @@ export const newsData: NewsPost[] = [
 ご質問がございましたら、お気軽にお声かけください。`,
     excerpt: '1月より朝の健康体操教室の開始時間を9:30に変更いたします。',
     category: 'classroom',
-    publishedAt: '2023-12-01T16:00:00Z',
-    updatedAt: '2023-12-01T16:00:00Z',
+    publishedAt: '2024-12-01T16:00:00Z',
+    updatedAt: '2024-12-01T16:00:00Z',
     isPublished: true
   },
   {
@@ -98,8 +98,8 @@ export const newsData: NewsPost[] = [
 なお、振替レッスンをご希望の方は、お気軽にご相談ください。`,
     excerpt: '12月18日は講師研修のため全教室休講となります。振替レッスンも承ります。',
     category: 'important',
-    publishedAt: '2023-11-28T11:00:00Z',
-    updatedAt: '2023-11-28T11:00:00Z',
+    publishedAt: '2024-11-28T11:00:00Z',
+    updatedAt: '2024-11-28T11:00:00Z',
     isPublished: true
   },
   {
@@ -114,8 +114,8 @@ export const newsData: NewsPost[] = [
 今後もこのような地域イベントに積極的に参加し、運動の楽しさをお伝えしていきたいと思います。`,
     excerpt: '飯田市健康まつりに参加し、体操の実演や健康相談を行いました。',
     category: 'event',
-    publishedAt: '2023-11-15T14:30:00Z',
-    updatedAt: '2023-11-15T14:30:00Z',
+    publishedAt: '2024-11-15T14:30:00Z',
+    updatedAt: '2024-11-15T14:30:00Z',
     isPublished: true
   },
   {
@@ -131,8 +131,8 @@ export const newsData: NewsPost[] = [
 今後も運動を楽しみながら、素敵な出会いの場を提供できるよう努めてまいります。`,
     excerpt: '出会い活教室で知り合われたお二人がご結婚されることになりました。',
     category: 'general',
-    publishedAt: '2023-11-08T13:00:00Z',
-    updatedAt: '2023-11-08T13:00:00Z',
+    publishedAt: '2024-11-08T13:00:00Z',
+    updatedAt: '2024-11-08T13:00:00Z',
     isPublished: true
   },
   {
@@ -154,8 +154,8 @@ export const newsData: NewsPost[] = [
 皆様に安心してご利用いただけるよう、引き続き感染予防対策に努めてまいります。`,
     excerpt: 'インフルエンザシーズンに向けて感染予防対策を徹底しています。',
     category: 'important',
-    publishedAt: '2023-11-01T10:00:00Z',
-    updatedAt: '2023-11-01T10:00:00Z',
+    publishedAt: '2024-11-01T10:00:00Z',
+    updatedAt: '2024-11-01T10:00:00Z',
     isPublished: true
   },
   {
@@ -176,8 +176,8 @@ export const newsData: NewsPost[] = [
 動きやすい服装と水筒をお持ちください。`,
     excerpt: '11月25日に屋外での特別レッスン「紅葉ウォーキング体操」を開催します。',
     category: 'event',
-    publishedAt: '2023-10-25T15:00:00Z',
-    updatedAt: '2023-10-25T15:00:00Z',
+    publishedAt: '2024-10-25T15:00:00Z',
+    updatedAt: '2024-10-25T15:00:00Z',
     isPublished: true
   },
   {
@@ -200,8 +200,8 @@ export const newsData: NewsPost[] = [
 完全予約制となりますので、ご希望の方はお早めにお申し込みください。`,
     excerpt: '12月2日に会員様限定の健康チェック&相談会を開催します。',
     category: 'general',
-    publishedAt: '2023-10-20T12:00:00Z',
-    updatedAt: '2023-10-20T12:00:00Z',
+    publishedAt: '2024-10-20T12:00:00Z',
+    updatedAt: '2024-10-20T12:00:00Z',
     isPublished: true
   },
   {
@@ -221,8 +221,8 @@ export const newsData: NewsPost[] = [
 詳細は後日お知らせいたしますので、ぜひスケジュールを空けておいてください！`,
     excerpt: '第1回囲碁ボール大会を2月11日に開催することが決定しました。',
     category: 'event',
-    publishedAt: '2023-10-15T14:00:00Z',
-    updatedAt: '2023-10-15T14:00:00Z',
+    publishedAt: '2024-10-15T14:00:00Z',
+    updatedAt: '2024-10-15T14:00:00Z',
     isPublished: true
   },
   {
@@ -243,8 +243,8 @@ export const newsData: NewsPost[] = [
 最新の情報は随時お知らせいたします。`,
     excerpt: '10月30日から11月3日まで、設備の一部リニューアル工事を行います。',
     category: 'important',
-    publishedAt: '2023-10-10T09:00:00Z',
-    updatedAt: '2023-10-10T09:00:00Z',
+    publishedAt: '2024-10-10T09:00:00Z',
+    updatedAt: '2024-10-10T09:00:00Z',
     isPublished: true
   }
 ]
